@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<!-- Head Area -->
+<head>
+  <meta charset="utf-8">
+  <title>Ahmad Iqbal</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Mr+De+Haviland&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/c0c7479401.js" crossorigin="anonymous"></script>
+
+  <!-- FavIcon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="images/site.webmanifest">
+  <!-- FavIcon End -->
+
+</head>
+<!-- Head End -->
+
+<body>
+  <section id="welcome">
+
+    <!-- Navbar Section -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="#">
+        <img class="logo-img" src="images/profile-picture.png" width="30" height="30" alt="" loading="lazy">
+        Ahmad Iqbal
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#profile">Profile <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#activity">Contents</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Navbar Section End -->
+
+    <!-- Landing Area -->
+    <img id="backgroundChange" src="images/Background.jpg" alt="background-image" class="background-img">
+    <div id="head" class="header">
+      <h1 id="textChange" class="welcome-head">Hi, I'am Iqbal</h1>
+      <h1 id="textChange2" class="welcome-head"></h1>
+      <h3 class="welcome-desc">Let's Take A Journey With Me</h3>
+    </div>
+    <!-- Landing Area End -->
+
+  </section>
+
+  <!-- Profile Section Area -->
+  <section id="profile">
+    <img src="images/profile-picture.png" alt="profile-picture" class="profile-img">
+    <h2 class="prof-name">Ahmad Iqbal Yahya</h2>
+    <p class="prof-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit .</p>
+  </section>
+<!-- Profile Section Area End -->
+
+<!-- Content Area -->
+  <section id="activity">
+    <h2 class="act-head">What Do I Do ?</h2>
+    <div class="act-item row">
+      <div class="activity1 col-lg-4 col-md-6">
+        <img class="act-img" src="images/jupiter.png" alt="jupiter-img"><br>
+        <a class="act-link" href="https://medium.com/@ahmadiqbalshinichi">Journal</a>
+        <p class="act-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et </p>
+      </div>
+      <div class="activity1 col-lg-4 col-md-6">
+        <img class="act-img" src="images/venus.png" alt="venus-img"><br>
+        <a class="act-link" href="https://instagram.com/alittleeye">Photography</a>
+        <p class="act-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et </p>
+      </div>
+      <div class="activity1 col-lg-4">
+        <img class="act-img" src="images/mars.png" alt="mars-img"><br>
+        <a class="act-link" href="">Lorem Ipsum</a>
+        <p class="act-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et </p>
+      </div>
+    </div>
+  </section>
+  <!-- Content Area End -->
+
+
+<!-- Contact Me Area -->
+  <section id="contact">
+    <h2>In Touch With Me</h2>
+    <p class="con-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p>
+    <button id="butn" type="button" class="btn btn-dark butn" data-toggle="modal" data-target="#exampleModal">Contact Me</button>
+
+    <!--Modal Area  -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Email Me</h5>
+          </div>
+
+          <!-- Modal Content -->
+          <div class="modal-body">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Messages</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Send</button>
+          </div>
+          <!-- Modal Content End -->
+
+        </div>
+      </div>
+    </div>
+    <!-- Modal Area End -->
+
+    <!-- Social Media Area -->
+    <div class="socmed">
+        <i class="fab fa-linkedin"></i>
+        <a class="socmed-link" href="https://www.linkedin.com/in/ahmad-i-32935b13a/">LinkedIn</a>
+        <i class="fab fa-instagram-square"></i>
+        <a class="socmed-link" href="https://www.instagram.com/ahmiqball">Instagram</a>
+        <i class="fab fa-twitter-square"></i>
+        <a class="socmed-link" href="https://twitter.com/ahmiqball">Twitter</a>
+        <i class="fab fa-github-square"></i>
+        <a class="socmed-link" href="https://github.com/ahmadiqball">GitHub</a>
+    </div>
+    <!-- Social Media End -->
+
+  </section>
+<!-- Contact Me Area End -->
+
+
+
+  <section id="footer">
+    <p>© Copyright 2021 Ahmad Iqbal</p>
+  </section>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>

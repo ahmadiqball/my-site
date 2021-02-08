@@ -1,0 +1,201 @@
+body {
+  margin: 0;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+}
+
+/* Section Area */
+#activity {
+  background-color: #08172e;
+  text-align: center;
+  padding: 5% 15%;
+  color: #fff;
+}
+
+#contact {
+  text-align: center;
+  padding: 7% 15% 0;
+  color: #122844;
+}
+
+#footer {
+  text-align: center;
+  background-color: #08172e;
+  padding: 3% 0 3%;
+  color: #fff;
+}
+
+#profile {
+  text-align: center;
+  padding: 7% 15%;
+  color: #122844;
+}
+
+#welcome {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 270px;
+
+
+}
+
+/* Section Area End */
+
+/* Welcome section */
+.background-img {
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.collapse {
+  padding-right: 7%;
+}
+
+.header {
+  margin: 15% 0 25%;
+}
+
+.logo-img {
+  margin-right: 5px;
+}
+.navbar {
+  background-color: #0D131B;
+}
+
+.navbar-brand {
+  padding-left: 7%;
+  font-weight: 500;
+}
+
+.welcome-desc {
+  font-weight: normal;
+}
+
+.welcome-head {
+  font-family: 'Mr De Haviland', cursive;
+  font-size: 6rem;
+  margin-bottom: 30px;
+}
+
+/* Welcome Area End */
+
+/* Profile Area */
+.profile-img {
+  width: 15rem;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 30px 0px #122844, 0px 0px 40px 0px #436183;
+  border-radius: 100%;
+}
+
+.prof-desc {
+  color: #436183;
+  padding: 20px 10% 0;
+}
+
+/* Profile Area End */
+
+/* Content Area */
+
+.act-desc {
+  color: #d9d9d9;
+  margin-top: 20px;
+}
+
+.act-head {
+  font-size: 3rem;
+}
+
+.act-img {
+  height: 150px;
+  margin: 30px 0;
+  border-radius: 100%;
+}
+
+.act-img:hover {
+  margin: 20px 0;
+  height: 170px;
+  box-shadow: 0px 0px 30px 5px #000;
+}
+
+.act-item {
+  padding-top: 50px;
+}
+
+/* Content Area End */
+
+/* Contact Area */
+
+#butn {
+  background-color: #122844;
+  border-radius: .75rem;
+  border-color: #fff;
+}
+
+#butn:hover {
+  background-color: #436183;
+}
+
+.act-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.act-link:hover {
+  color: #415F82;
+  text-decoration: none;
+}
+
+.con-desc {
+  color: #436183;
+  padding: 20px 15%;
+}
+
+.fab {
+  color: #3D5169;
+
+}
+
+.socmed {
+  padding: 50px 26% 10px;
+}
+
+.socmed-link {
+  color: #3D5169;
+  margin-right: 20px;
+}
+
+.socmed-link:hover {
+  text-decoration: none;
+  color: #A8B8CB;
+}
+
+/* Content Area End */
+@media (max-width: 800px) {
+  .header {
+    margin: 40% 0 50%;
+  }
+}
+
+@media (max-width: 568px) {
+  .header {
+    margin: 55% 0 70%;
+  }
+  .welcome-head {
+    font-size: 5rem;
+  }
+  .welcome-desc {
+    font-size: 1.5rem;
+  }
+
+  #activity {
+    padding: 100px 15%;
+  }
+  #contact {
+    padding: 100px 5% 10px;
+    margin: 0;
+  }
+}
