@@ -6,7 +6,7 @@ function myFunction() {
     $("#textChange").text("Hi, ");
     $("#textChange2").text("I'am Iqbal");
   }
-  else if (x > 568 && x <= 800) {
+  else if (x > 568 && x <= 1000) {
     $("#backgroundChange").attr("src", "images/Background4.jpg");
     $("#textChange").text("Hi, I'am Iqbal");
     $("#textChange2").text("");
