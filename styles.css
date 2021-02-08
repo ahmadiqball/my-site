@@ -178,6 +178,9 @@ body {
   .header {
     margin: 40% 0 50%;
   }
+  #activity {
+    margin: 5% 30%;
+  }
 }
 
 @media (max-width: 568px) {
