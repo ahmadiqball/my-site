@@ -1,5 +1,5 @@
 function myFunction() {
-  var x = screen.width;
+  var x = window.innerWidth;
   console.log(x);
   if (x <= 568){
     $("#backgroundChange").attr("src", "images/Background2.jpg");
